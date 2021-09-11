@@ -1,8 +1,4 @@
-﻿using ShareTechApp.Services;
-using ShareTechApp.Views;
-using System;
-using Xamarin.Forms;
-using Xamarin.Forms.Xaml;
+﻿using Xamarin.Forms;
 
 namespace ShareTechApp
 {
@@ -12,8 +8,6 @@ namespace ShareTechApp
         public App()
         {
             InitializeComponent();
-
-            DependencyService.Register<MockDataStore>();
             MainPage = new AppShell();
         }
 
